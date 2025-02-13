@@ -23,6 +23,13 @@
   height: 100%;
   opacity: 0.04;
 }
+.home::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 200px #ceff001c;
+}
 .home p {
   color: var(--color-primary);
   font-size: 2.5rem;
