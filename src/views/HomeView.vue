@@ -18,6 +18,7 @@
 
 .home img {
   width: 80vw;
+  max-width: 490px;
 }
 
 .home::before {
